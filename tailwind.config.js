@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#C6697B',
+        'primary-dark': '#c0392b',
+        'my-purple': '#7B5387',
+      },
+      backgroundImage: {
+        'project-background': "url('/src/assets/background.jpg')",
+      },
+    },
   },
   plugins: [],
 }
